@@ -803,45 +803,45 @@ class Scene {
         // this.loadModel('models/itp/light-housing.glb', this.lightHousingMaterial, scaleFactor, false, false);
         // this.loadModel('models/itp/lighting-grid.glb', this.wallMaterial, scaleFactor, false, false);
         //this.loadModel('models/itp/walls.glb', this.wallMaterial, scaleFactor, true, false, true);
-        // this.loadModel('models/lopez/paredes.glb', this.wallMaterial, scaleFactor, true, true, true);
-        // this.loadModel('models/lopez/ladrillos.glb', this.brickMaterial, scaleFactor, false, false, false);
-        // this.loadModel('models/lopez/piso_aulita.glb', this.piso_aulita_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/piso_cocina.glb', this.piso_cocina_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/piso_entrada.glb', this.piso_entrada_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/paredes_ascensor.glb', this.wallMaterial, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/paredes.glb', this.wallMaterial, scaleFactor, true, true, true);
+        this.loadModel('models/lopez/ladrillos.glb', this.brickMaterial, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/piso_aulita.glb', this.piso_aulita_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/piso_cocina.glb', this.piso_cocina_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/piso_entrada.glb', this.piso_entrada_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/paredes_ascensor.glb', this.wallMaterial, scaleFactor, false, false, true);
 
-        // this.loadModel('models/lopez/biblioteca.glb', this.biblioteca_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/lavadero.glb', this.lavadero_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/cocina.glb', this.cocina_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/cuadro_azul.glb', this.cuadro_azul_material, scaleFactor, false, false, false);
-        // this.loadModel('models/lopez/cuadro_rojo.glb', this.cuadro_rojo_material, scaleFactor, false, false, false);
-        // this.loadModel('models/lopez/pared_aulita.glb', this.pared_aulita_material, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/biblioteca.glb', this.biblioteca_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/lavadero.glb', this.lavadero_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/cocina.glb', this.cocina_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/cuadro_azul.glb', this.cuadro_azul_material, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/cuadro_rojo.glb', this.cuadro_rojo_material, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/pared_aulita.glb', this.pared_aulita_material, scaleFactor, false, false, false);
 
-        // this.loadModel('models/lopez/piso_entrada.glb', this.piso_jardin_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/pasto.glb', this.pasto_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/piso_jardin.glb', this.piso_jardin_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/reja.glb', this.reja_material, scaleFactor, true, false, true);
+        this.loadModel('models/lopez/piso_entrada.glb', this.piso_jardin_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/pasto.glb', this.pasto_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/piso_jardin.glb', this.piso_jardin_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/reja.glb', this.reja_material, scaleFactor, true, false, true);
 
-        // this.loadModel('models/lopez/terraza.glb', this.wallMaterial, scaleFactor, true, false, true);
-        // this.loadModel('models/lopez/piso_terraza.glb', this.piso_cocina_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/terraza.glb', this.wallMaterial, scaleFactor, true, false, true);
+        this.loadModel('models/lopez/piso_terraza.glb', this.piso_cocina_material, scaleFactor, false, false, true);
         //this.loadModel('models/itp/window-shelf.glb', this.windowShelfMaterial, scaleFactor, true, false);
         //this.loadModel('models/itp/wooden-bar.glb', this.floorMaterial, scaleFactor, true, true, true);
-        //    this.loadModel('models/lopez/ascensor_in.glb', this.pasto_material, scaleFactor, false, false, false);
+           //this.loadModel('models/lopez/ascensor_in.glb', this.pasto_material, scaleFactor, false, false, false);
         // Elevators
-        // this.loadTeleport('models/lopez/ascensor_in.glb', 'models/lopez/ascensor_out.glb', scaleFactor);
-        // this.loadModel('models/lopez/ascensor_frente.glb', this.portalMaterial, scaleFactor, false, false, false);
+        this.loadTeleport('models/lopez/ascensor_in.glb', 'models/lopez/ascensor_out.glb', scaleFactor);
+        this.loadModel('models/lopez/ascensor_frente.glb', this.portalMaterial, scaleFactor, false, false, false);
         // Exterior
         this.loadModel('models/lopez/copas_arboles.glb', this.copa_arbol_material, scaleFactor, false, false, true);
         this.loadModel('models/lopez/tallos_arboles.glb', this.tallo_arbol_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/pasto_ext.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
-        // this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
-        this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.arena_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/pasto_ext.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
+        //this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.arena_material, scaleFactor, false, false, true);
 
 
-        // this.loadModel('models/lopez/cartel_fiesta.glb', this.cartel_fiesta_material, scaleFactor, false, false, false);
-        // this.loadModel('models/lopez/cartel_terraza.glb', this.cartel_terraza_material, scaleFactor, false, false, false);
-        // this.loadModel('models/lopez/techo_terraza.glb', this.cartel_techo_terraza, scaleFactor, false, false, false);
-        this.loadModelGltf('models/fogon/Campfire.gltf', null, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/cartel_fiesta.glb', this.cartel_fiesta_material, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/cartel_terraza.glb', this.cartel_terraza_material, scaleFactor, false, false, false);
+        this.loadModel('models/lopez/techo_terraza.glb', this.cartel_techo_terraza, scaleFactor, false, false, false);
+        //this.loadModelGltf('models/fogon/Campfire.gltf', null, scaleFactor, false, false, true);
 
     }
 
