@@ -833,8 +833,8 @@ class Scene {
         // Exterior
         this.loadModel('models/lopez/copas_arboles.glb', this.copa_arbol_material, scaleFactor, false, false, true);
         this.loadModel('models/lopez/tallos_arboles.glb', this.tallo_arbol_material, scaleFactor, false, false, true);
-        //this.loadModel('models/lopez/pasto_ext.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
-        this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
+        this.loadModel('models/lopez/pasto_ext.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
+        //this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.pasto_exterior_material, scaleFactor, false, false, true);
         //this.loadModel('models/lopez/nuevo-pasto-ext2.glb', this.arena_material, scaleFactor, false, false, true);
 
 
